@@ -1,0 +1,17 @@
+{
+
+  "manifest_version": 2,
+  "name": "Save-video-current-time",
+  "version": "1.0",
+  "id": "jaime",
+
+  "description": "Adds a red border to all webpages matching mozilla.org.",
+
+  "content_scripts": [
+    {
+      "matches": ["*://portal.sacocheio.tv/programacao/uploads/*"],
+      "js": ["content.js"]
+    }
+  ]
+
+}
